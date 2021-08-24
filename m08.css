@@ -1,0 +1,363 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2354510.png");
+  background-repeat: no-repeat;
+  padding: 40px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgb(245, 245, 245); */
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+input[type="range"] {
+  height: 25px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: rgba(182, 182, 182, 0.4);
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+
+  height: 13px;
+  width: 13px;
+  border-radius: 25px;
+  background: #616161;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -4px;
+}
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #2497e3;
+}
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 0px #000000;
+  background: #2497e3;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+input[type="range"]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #b9b9b9;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #424242;
+  cursor: pointer;
+}
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type="range"]::-ms-fill-lower {
+  background: #a87f7f;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type="range"]::-ms-fill-upper {
+  background: #c78d8d;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type="range"]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #b9b9b9;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #a1d0ff;
+  cursor: pointer;
+}
+input[type="range"]:focus::-ms-fill-lower {
+  background: #e78d8d;
+}
+input[type="range"]:focus::-ms-fill-upper {
+  background: #ff7676;
+}
+
+/* comp-1 CSS part start */
+
+.comp-1 {
+  width: 300px;
+  height: 600px;
+  padding: 30px 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.explain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explain-rapper {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  color: #222222;
+  box-shadow: 0 5px 10px rgba(175, 216, 255, 0.856),
+    0 5px 20px rgba(175, 216, 255, 0.856);
+}
+.explan-rapper__name1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.explan-rapper__name2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #b6b6b6;
+}
+.middle-btn {
+  width: 230px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.middle-btn__shuffle {
+  width: 90px;
+  height: 35px;
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.middle-btn__heart {
+  width: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #222222;
+}
+.middle-btn__heart span {
+  color: #b6b6b6;
+}
+.other-rapper {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.other-rapper img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.rapper-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rapper-one__info {
+  display: flex;
+  flex-direction: column;
+}
+.rapper-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rapper-two__info {
+  display: flex;
+  flex-direction: column;
+}
+.rapper-three {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rapper-three__info {
+  display: flex;
+  flex-direction: column;
+}
+.rapper-four {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rapper-four__info {
+  display: flex;
+  flex-direction: column;
+}
+.rap1 {
+  margin-left: 20px;
+  color: #b6b6b6;
+  font-size: 14px;
+  font-weight: 500;
+}
+.rap2 {
+  margin-left: 20px;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.rapper-one__more {
+  margin-left: 70px;
+}
+
+.rapper-two__more {
+  margin-left: 51px;
+}
+.rapper-three__more {
+  margin-left: 65px;
+}
+.rapper-four__more {
+  margin-left: 53px;
+}
+.song-box {
+  position: sticky;
+  padding: 4px 30px;
+  width: 270px;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  color: white;
+  border-radius: 40px;
+}
+.song-box__info {
+  display: flex;
+  flex-direction: column;
+}
+.song-box__name {
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+.song-box__song {
+  font-weight: 600;
+}
+.song-box__btn {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* comp-2 CSS part Start*/
+
+.comp-2 {
+  width: 300px;
+  height: 600px;
+  padding: 30px 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.top2 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 70px;
+}
+.explaincomp2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explaincomp2-rapper img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(205, 231, 255, 0.856),
+    0 5px 20px rgba(222, 239, 255, 0.856);
+  margin-bottom: 30px;
+}
+.explancomp2-rapper__name1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #222222;
+  margin-bottom: 10px;
+}
+.explancomp2-rapper__name2 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #bebebe;
+  margin-bottom: 30px;
+}
+.song-range {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.song-range__time {
+  display: flex;
+  justify-content: space-between;
+  color: #bebebe;
+}
+.comp2-bottom {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comp2-bottom span:first-child {
+  color: #dad8d8;
+  font-size: 20px;
+}
+.comp2-bottom span:nth-child(2) {
+  color: #222222;
+  font-size: 20px;
+}
+.comp2-bottom span:nth-child(3) {
+  color: #222222;
+  font-size: 45px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.comp2-bottom span:nth-child(4) {
+  color: #222222;
+  font-size: 20px;
+}
+.comp2-bottom span:last-child {
+  color: #dad8d8;
+  font-size: 20px;
+}
